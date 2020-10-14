@@ -209,6 +209,48 @@ nav{
 
 /* site_footer */
 #site_footer{
-  height: 200px;
-  background: grey;
+  background: white;
+}
+
+
+
+.real{
+  color: lightgrey;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+hr{
+  border-style: inset;
+}
+
+.social{
+  height: 70px;
+}
+
+#social::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+/* .icon{
+  width: 30%;
+  margin: auto;
+} */
+
+
+.icon i{
+  font-size: 30px;
+  color: lightgrey;
+  line-height: 100%;
+  /* height: 100%; */
+
+}
+
+.icon i:hover{
+  color: blue;
+  cursor: pointer;
 }
