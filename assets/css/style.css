@@ -20,7 +20,6 @@ body{
   clear: both;
 } */
 
-
 /* utility */
 .float_left{
   float: left;
@@ -105,17 +104,12 @@ nav{
   text-decoration: underline;
 }
 
-
 /* main_content */
 #main_content::after{
   content: "";
   display: table;
   clear: both;
 }
-
-/* #main_content{
-  line-height: 2;
-} */
 
 .col_left{
   width: 20%;
@@ -138,13 +132,12 @@ nav{
   width: 60%;
   font-weight: 500;
   color: #504741;
-  /* margin-bottom: 5px; */
 }
 
 .col_side ul{
   list-style: none;
   margin: 10px;
-  /* line-height: 1.5; */
+  line-height: 1.5;
 }
 
 .col_side li {
@@ -211,8 +204,6 @@ nav{
 #site_footer{
   background: white;
 }
-
-
 
 .real{
   color: lightgrey;
