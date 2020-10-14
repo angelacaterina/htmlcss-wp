@@ -113,6 +113,10 @@ nav{
   clear: both;
 }
 
+/* #main_content{
+  line-height: 2;
+} */
+
 .col_left, .col_right{
   width: 20%;
   background: white;
@@ -132,18 +136,20 @@ nav{
 
 .col_left h2{
   width: 60%;
-  font-weight: 600;
-  color: grey;
-  margin-bottom: 5px;
+  font-weight: 500;
+  color: #504741;
+  /* margin-bottom: 5px; */
 }
 
 .col_side ul{
   list-style: none;
+  margin: 10px;
+  /* line-height: 1.5; */
 }
 
 .col_side li {
   margin-bottom: 5px;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 .col_side li a{
@@ -164,6 +170,21 @@ nav{
   width: 50%;
   background: white;
   margin: 0 5%;
+  padding: 10px;
+}
+
+.col_center h2{
+  color: #504741;
+  margin: 15px 10px;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px grey;
+}
+
+.col_center p{
+  margin: 20px 10px;
+  line-height: 2;
 }
 
 /* site_footer */
