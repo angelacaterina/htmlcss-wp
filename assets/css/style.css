@@ -117,7 +117,7 @@ nav{
   line-height: 2;
 } */
 
-.col_left, .col_right{
+.col_left{
   width: 20%;
   background: white;
 }
@@ -184,6 +184,26 @@ nav{
 
 .col_center p{
   margin: 20px 10px;
+  line-height: 2;
+}
+
+.col_right{
+  width: 20%;
+}
+
+.widget{
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.widget h2{
+  color: #504741;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.widget p{
   line-height: 2;
 }
 
