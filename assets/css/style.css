@@ -2,6 +2,7 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -33,9 +34,15 @@ body{
   margin-bottom: 20px;
 }
 
+.rounded_box{
+  border-radius: 5px;
+  background: white;
+  padding: 5px;
+}
+
 /* site_header */
 #site_header{
-  height: 400px;
+  height: 300px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -44,16 +51,17 @@ body{
 
 .header_top{
   position: relative;
-  height: 380px;
+  height: 256px;
   border: 10px solid white;
   background-image: url(../img/header_bg.jpg);
   background-size: cover;
 }
 
 .header_top h1{
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
 }
+
 .header_logo{
   position: absolute;
   top: 50%;
@@ -68,12 +76,35 @@ body{
 /* navbar */
 nav{
   width: 100%;
-  height: 80px;
-  background: red;
+  height: 44px;
+  background: grey;
   position: absolute;
   left: 0;
   bottom: 0;
 }
+
+.nav ul{
+  list-style: none;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 44px;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+}
+
+.menu li:hover{
+  background: lightgrey;
+  /* cursor: pointer; */
+  text-decoration: underline;
+}
+
 
 /* main_content */
 #main_content::after{
@@ -84,8 +115,50 @@ nav{
 
 .col_left, .col_right{
   width: 20%;
+  background: white;
+}
+
+.col_header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col_left i{
+  padding-right: 10px;
+  font-size: 30px;
+  color: orange;
+}
+
+.col_left h2{
+  width: 60%;
+  font-weight: 600;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.col_side ul{
+  list-style: none;
+}
+
+.col_side li {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.col_side li a{
+  text-decoration: none;
+  color: green;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.col_side li a:hover{
+  text-decoration: underline;
+  cursor: pointer;
   background: lightgrey;
 }
+
 
 .col_center{
   width: 50%;
